@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "heatmaps"
+version = "0.1.0"
+description = ""
+authors = ["franciscobmacedo <franciscovcbm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.0"
+geopandas = "^0.13.2"
+matplotlib = "^3.7.2"
+ipykernel = "^6.25.2"
+geopy = "^2.4.0"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
